@@ -1,3 +1,26 @@
+1. Proper README
+2. Integration test
+   i.PIT STOP ! How to make running these scripts easier??
+3. Pragmatic verification
+4. Push to GitHub
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
