@@ -19,7 +19,7 @@ contract FundMeTest is Test {
         //instead this to change with deploy we do next line ; fundMe = new FundMe(0x694AA1769357215DE4FAC081bf1f309aDC325306); //deploy the contract . we are saying our FundMe variable of FundMe variable is a new FundMe contract. if we use console.log
 
         DeployFundMe deployFundMe = new DeployFundMe();
-        fundMe = deployFundMe.run();
+        (fundMe, ) = deployFundMe.run();
         vm.deal(USER, STARTING_BALANCE);
     }
 
